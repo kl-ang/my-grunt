@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grunt Test</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://dna.jsstatic.com/siva/siva-1.2.17.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://dna.jsstatic.com/pi/icon-font/2.1/icon-font.css">
+	<!-- Swipe CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+	<!-- Select2 CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
+
+	<style>
+		html, body {
+			position: relative;
+			height: 100%;
+		}
+		body {
+			background: #eee;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color:#000;
+			margin: 0;
+			padding: 0;
+		}
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+			background: #000;
+		}
+		.swiper-slide {
+			font-size: 18px;
+			color:#fff;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 40px 60px;
+		}
+		.parallax-bg {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 130%;
+			height: 100%;
+			-webkit-background-size: cover;
+			background-size: cover;
+			background-position: center;
+		}
+		.swiper-slide .title {
+			font-size: 41px;
+			font-weight: 300;
+		}
+		.swiper-slide .subtitle {
+			font-size: 21px;
+		}
+		.swiper-slide .text {
+			font-size: 14px;
+			max-width: 400px;
+			line-height: 1.3;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+
+	<!-- Swipper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="parallax-bg" style="background-image:url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/earth-wallpapers-6.jpg)" data-swiper-parallax="-23%"></div>
+				<div class="title" data-swiper-parallax="-100">Slide 1</div>
+				<div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+				<div class="text" data-swiper-parallax="-300">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+				</div>
+			</div>
+			<div class="swiper-slide">
+			<div class="parallax-bg" style="background-image:url(http://img11.deviantart.net/6110/i/2013/246/a/e/blue_space_collage_montage_wallpaper_background_by_everplex-d6kxgct.jpg)" data-swiper-parallax="-23%"></div>
+				<div class="title" data-swiper-parallax="-100">Slide 2</div>
+				<div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+				<div class="text" data-swiper-parallax="-300">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+				</div>
+			</div>
+			<div class="swiper-slide">
+			<div class="parallax-bg" style="background-image:url(http://www.ozwallpaper.com/wp-content/uploads/2015/06/space_comet_wallpaper_screensaver_1280x1024.jpg)" data-swiper-parallax="-23%"></div>
+				<div class="title" data-swiper-parallax="-100">Slide 3</div>
+				<div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+				<div class="text" data-swiper-parallax="-300">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination swiper-pagination-white"></div>
+		<!-- Add Navigation -->
+		<div class="swiper-button-prev swiper-button-white"></div>
+		<div class="swiper-button-next swiper-button-white"></div>
+	</div>
+
+	<!-- Grunt Test -->
+
+	<h1 class="h1-title">OK. LET’S GET GRUNT INSTALLED</h1>
+	<p>Node is indeed a prerequisite for Grunt. If you don’t have Node installed, don’t worry, it’s very easy. You literally download an installer and run it. Click the big Install button on the Node website.
+
+	You install Grunt on a per-project basis. Go to your project’s folder. It needs a file there named package.json at the root level. You can just create one and put it there.</p>
+
+	<h2 class="h2-title">Grunt Test</h2>
+	<ul class="my-ul">
+		<li>autoprefixer</li>
+		<li>browser-sync</li>
+		<li>html-build</li>
+		<li>email-design</li>
+		<li>uncss</li>
+		<li>revizor</li>
+	</ul>
+
+	<table border="1">
+		<tr>
+			<td class="ellipsis_cell">
+				<div title="This cells has more content">
+					<span>This cells has more content</span>
+				</div>
+			</td>
+			<td class="nowrap">Less content here</td>
+		</tr>
+	</table>
+
+	<!-- End of Grunt Test -->
+
+	<!-- select2 Test -->
+	<br>
+	<h2 class="h2-title">Select2</h2>
+
+	<div class="panel">
+		<div class="panel-body">
+			<select class="js-example-basic-single">
+				<option value="language">In your language</option>
+				<option value="remote">Remote data support</option>
+				<option value="theme">Theme</option>
+				<option value="extensible">Fully extensible</option>
+				<option value="dynamic">Dynamic item creation</option>
+				<option value="support">Full browser support</option>
+			</select>
+		</div>
+	</div>
+	<!-- select2 Test -->
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+	<!-- Select2 JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
+
+	<script>        
+		$(document).ready(function () {
+			//initialize swiper when document ready  
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				parallax: true,
+				speed: 600,
+				autoplay: 2500,
+        autoplayDisableOnInteraction: false
+			});
+		});   
+
+		$(document).ready(function() {
+			$(".js-example-basic-single").select2();
+		});   
+	</script>
+
+</body>
+</html>
